@@ -89,7 +89,7 @@ namespace CalculatorLibrary
 
         public double RecallResult(int resultNum)
         {
-            return History[resultNum - 1].Result;
+            return History[resultNum].Result;
         }
         private void StartLog()
         {
